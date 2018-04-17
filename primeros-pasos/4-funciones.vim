@@ -28,3 +28,15 @@ function Contar(...)
 " a:000 (lista de argumentos)
 endfunction
 
+" MAPEANDO NUEVOS COMANDOS
+
+" imap se usa para asignarle comandos a las teclas en modo inserción.
+imap <silent> <F2> Insertando texto<CR>
+
+
+" nmap se usa para asignarle comandos a las teclas en modo normal.
+nmap <C-B> :call Hola()<CR>
+
+
+" vmap se usa para asignarle comandos a las teclas en modo visual.
+vmap <silent> ,s :call Hola()<CR>
