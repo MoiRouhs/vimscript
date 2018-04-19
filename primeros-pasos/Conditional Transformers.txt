@@ -1,0 +1,10 @@
+someCyclesBy
+foldEvery
+ifp
+mask
+every
+sometimesBy
+swingBy
+when
+whenmod
+within

@@ -1,0 +1,11 @@
+clutch
+histpan
+jump
+jumpIn
+jumpIn'
+jumpMod
+mortal
+superwash
+wait
+wash
+xfade

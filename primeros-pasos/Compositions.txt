@@ -1,0 +1,11 @@
+seqP
+cat
+fastcat
+interlace
+randcat
+append
+spin
+stack
+superimpose
+weave
+wedge
