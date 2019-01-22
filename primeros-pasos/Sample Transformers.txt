@@ -1,6 +1,0 @@
-loopAt
-gap
-chop
-striate
-striateL
-stut
