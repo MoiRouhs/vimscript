@@ -1,7 +1,0 @@
-choose
-irand
-pequal
-rand
-run
-scale
-up
