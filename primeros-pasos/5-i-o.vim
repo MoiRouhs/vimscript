@@ -4,7 +4,7 @@ function Remplazar() " setline() permite Remplazar el contenido de una línea po
   :call setline('.', 'Coconuts') " El '.' hace referencia a la linea actual
 endfunction
 
-function ImputRemplazar(texto)
+function InputRemplazar(texto)
   :call setline('$',a:texto) " El '$' hace referencia a la línea final
 endfunction
 
@@ -12,7 +12,7 @@ function Insertar() " Inserta en el buffer actual
   :call append('4','" fin fin') " Se puede poner cualquier número de linea para llevar a cabo la operación
 endfunction
 
-function ImputInsertar(texto)
+function InputInsertar(texto)
   :call append('.',a:texto) " append() no elimina información, inserta los datos en una línea nueva.
 endfunction
 
@@ -26,7 +26,7 @@ function CapturarInsertar()
   :call append('$',l:ca)
 endfunction
 
-function ImputCapturarInsertar(texto)
+function InputCapturarInsertar(texto)
   let l:ca = getline('.')
   let l:resultado = join([l:ca, a:texto], ' ')
   :call append('$',l:resultado)
